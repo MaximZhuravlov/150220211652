@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <section class="information">
+    <div class="container">
+      <div class="information__inner">
+        <img src="img/photo.jpg" alt="Photo" class="information__photo">
+        <p class="information__name">Вероника Ростова</p>
+        <p class="information__position">Менеджер по продажам</p>
+        <p class="information__status">
+          Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны
+        </p>
+        <div class="information__stats">
+          <div class="information__stats-title">
+            <span>Услуг</span>
+          </div>
+          <div class="information__stats-item information__stats-item--booking">
+            <p class="information__stats-name">
+              Ручное бронирование
+            </p>
+            <span class="information__stats-number">11</span>
+          </div>
+          <div class="information__stats-item information__stats-item--package">
+            <p class="information__stats-name">
+              Пакетные туры
+            </p>
+            <span class="information__stats-number">3</span>
+          </div>
+          <div class="information__stats-item information__stats-item--hotels">
+            <p class="information__stats-name">
+              Отели
+            </p>
+            <span class="information__stats-number">1</span>
+          </div>
+          <div class="information__stats-all">
+            <p class="information__stats-all-name">
+              Всего
+            </p>
+            <span class="information__stats-all-number"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback">
+    <div class="container">
+      <div class="feedback__title">
+        <div class="feedback__title-left">
+          <p class="feedback__last">Последние отзывы</p>
+          <p class="feedback__all">Все отзывы</p>
+        </div>
+        <div class="feedback__title-right">
+          <p class="feedback__likes-number">131</p>
+          <p class="feedback__comments-number">20</p>
+        </div>
+      </div>
+      <div class="feedback__comments"></div>
+    </div>
+    <div class="feedback__form-container">
+      <form action="#" class="feedback__form">
+        <textarea class="feedback__input"></textarea>
+        <button type="submit" class="feedback__submit">
+          Написать консультанту
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
