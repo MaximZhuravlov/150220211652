@@ -207,6 +207,7 @@
   line-height: 114.28571%;
   color: #005da1;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .feedback__likes-number, .feedback__comments-number {
